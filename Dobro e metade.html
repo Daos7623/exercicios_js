@@ -1,0 +1,40 @@
+<html>
+    <meta charset="UTF-8">
+    <title>~ Dobro e Metade ~</title>
+
+<body>
+    <script> 
+
+	function calculaDobro(numeroDobro,multi) {
+		
+		return  numeroDobro * multi;
+		
+	}
+	
+	function calculaDivisão(numeroDividido,div) {
+		
+		return  numeroDividido / div;
+		
+	}
+	
+	var multi = 2;
+	var div = 2;
+	var nome = prompt("Informe seu nome:");
+	var numeroDobro = prompt(nome + ", informe o número a ser dobrado:");
+	var numeroDividido = prompt(nome + ", informe o número a ser dividido:");
+	
+	document.write("Olá " + nome + " tudo bem?");
+	document.write("<br><br>");
+	
+	var resultadoDobro = calculaDobro(numeroDobro,multi);
+	document.write("O dobro do primeiro número é " + resultadoDobro + ".");
+	document.write("<br><br>");
+	
+	var resultadoDivisão = calculaDivisão(numeroDividido,div);
+	document.write("A metade do segundo número é  " + resultadoDivisão + ".");
+	document.write("<br><br>");
+	
+    </script>
+</body>
+
+</html>

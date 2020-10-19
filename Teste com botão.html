@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Teste com botão</title>
+</head>
+<body>
+<button id="primeiro">Primeiro nome</button>
+<button id="segundo">Segundo nome</button>
+<button id="terceiro">Terceiro nome</button>
+
+
+<script>
+	var nomeCompleto = ["Augusto", "Fernandes", "Torres"];
+	var button1 = document.querySelector ("#primeiro");
+	var button2 = document.querySelector("#segundo");
+	var button3 = document.querySelector("#terceiro");
+
+	button1.onclick = mostrarNome1;
+	button2.onclick = mostrarNome2;
+	button3.onclick = mostrarNome3;
+
+	function mostrarNome1 () {
+		document.write (nomeCompleto[0]);
+	}
+
+	function mostrarNome2 () {
+		document.write (nomeCompleto[1]);
+	}
+
+	function mostrarNome3 () {
+		document.write (nomeCompleto[2]);
+	}
+
+	
+</script>
+</body>
+</html>

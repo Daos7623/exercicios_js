@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+	<title>Tabuada</title>
+</head>
+
+<body>
+	<h1>Tabuada usando HTML e JavaScript</h1>
+	<div class="tabuada">
+		<script>
+			function pularLinha() {
+			
+				document.write("<br>");
+				
+			}
+			
+			function mostra(frase) {
+			
+				document.write(frase);
+				pularLinha();
+			}
+			
+			var numero = parseInt(prompt("Escolha um número:"));
+			
+			for (var multiplicador = 1; multiplicador <= 10;multiplicador ++ ) {
+			
+				mostra(numero + " x " + multiplicador + " = " + (numero * multiplicador));
+			
+			}
+			
+			pularLinha();
+			mostra ("Bons estudos!");
+			
+		</script>
+	</div>
+</body>
+</html>

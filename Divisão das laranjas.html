@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O problema das laranjas</title>
+</head>
+<script>
+    var quantVizinhos = prompt("Informe a quantidade de vizinhos: ");
+    var quantLaranjas = prompt("Informe a quantidade de laranjas: ");
+    var divisaoLaranja = divisao(quantLaranjas,quantVizinhos);
+
+    function divisao (laranjas,vizinhos) {      
+        return Math.trunc(laranjas / vizinhos);
+    }
+
+    divisao(quantLaranjas,quantVizinhos);
+
+    document.write("Cada vizinho receberá " + divisaoLaranja + " laranjas.");   
+
+</script>
+<body>
+    
+</body>
+</html>

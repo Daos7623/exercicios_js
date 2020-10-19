@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhos da aula 14</title>
+</head>
+<body>
+    <!--Exercício 4-->
+    <h3>Exercício 4</h3>
+    <p>
+        <script>
+            var idadeUsuarioDirigir = prompt("Qual é a sua idade?");
+            var idadePermitidaDirigir = 18;
+            function direcao (idadeUsuarioDirigir,idadePermitidaDirigir) {
+                if (idadeUsuarioDirigir >= idadePermitidaDirigir) {
+                    return "Você pode dirigir.";
+                } else if (idadeUsuarioDirigir < idadePermitidaDirigir) {
+                    return "Você não pode dirigir.";
+                } else {
+                    return "Digite novamente sua idade."
+                }
+            }
+
+            document.write (direcao(idadeUsuarioDirigir,idadePermitidaDirigir));
+        </script>
+    </p>   
+</body>
+</html>

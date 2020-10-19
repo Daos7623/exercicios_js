@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var gato = prompt("Digite o nome do gato:");
+        switch (gato) {
+            case "Breu":
+            case "breu":
+                document.write ("O Breu é um gato preto." + "<br>");
+                break;
+            case "Link":
+            case "link":
+                document.write ("O Link é um gato branco e laranja." + "<br>");     
+                break; 
+            case "Léo":
+            case "léo":
+                document.write ("O Léo é um gato rajado." + "<br>");
+                break;
+            case "Macchiato":
+            case "macchiato":
+                document.write ("O Macchiato é um gato manchado." + "<br>");
+                break;
+            default:
+                document.write("O " + gato + " não é um dos meus gatos" + "<br>");                   
+        }       
+           
+    </script>
+</body>
+</html>

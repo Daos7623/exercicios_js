@@ -1,0 +1,44 @@
+<meta charset="utf-8">
+
+<script>
+    var nome = "Augusto Fernandes Torres";
+    var numeroFilhos = 0;
+    var cidade = "Rio de Janeiro";
+    var profissao = "DBA";
+
+    var item1 = "rede";
+    var item2 = "garrafas de água";
+    var item3 = "livros";
+
+    var animal = "cachorro";
+    
+    function pulaLinha(){
+        document.write("<br><br>");
+    }
+
+    function vidente () {
+        document.write ("A vidente prevê: " + nome + " terá " + numeroFilhos + 
+        " filhos e viverá no " + cidade + " trabalhando como " + profissao + ".");
+    }
+
+    function ilhaDeserta () {
+        document.write ("Eu levaria para uma ilha deserta: uma " + item1 + ", " + item2 + " e " + item3 + ".");
+    }
+
+    function escolhaAnimal () {
+        document.write ("Num primeiro momento, eu gostaria de ser um " + animal);
+        animal = "gato";
+        pulaLinha();
+        document.write ("Pensando melhor, prefiro ser um " + animal);
+    }
+
+    vidente();
+    pulaLinha();
+    ilhaDeserta();
+    pulaLinha();
+    escolhaAnimal();
+
+
+    
+</script>
+

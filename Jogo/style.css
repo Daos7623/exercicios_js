@@ -1,0 +1,108 @@
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color:#ffeadb;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 100%;
+    background-color:#679b9b;
+}
+
+.h1Header {
+    color: #FFFFFF;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 45px;
+}
+
+main {
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.divPrincipal {
+    display:flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.divMensagem {
+    padding: 20px;
+    height: 183px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    border: solid;
+    border-radius: 10px;
+    color: #637373;
+    background-color: #EFEFEF;
+}
+
+p {
+    text-indent: 15px;
+    text-align: justify;
+    font-family: 'Chilanka', cursive;
+    font-size: 18px;
+}
+
+.botoes {
+    display:flex;
+    justify-content: space-around;
+    padding: 20px;
+    width: 450px;
+    margin-left: 25%;
+    margin-right: 25%;
+    place-items: center;
+}
+
+.botao1, .botao2 {
+    border: solid;
+    border-radius: 10px;
+    border-color: #637373;
+    padding: 5px;
+    margin: 5px;
+    width: 35%;
+    font-family: 'Chilanka', cursive;
+    font-size: 15px;
+}
+
+.botao1:hover, .botao2:hover {
+    background-color:#679b9b;
+    color: #EFEFEF;
+}
+
+.botao1 {
+    display: none;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    background-color: #679b9b;
+    height: 90px;
+    width: 100%;    
+}
+
+.h1Footer {
+    color: #FFFFFF;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 20px;
+}

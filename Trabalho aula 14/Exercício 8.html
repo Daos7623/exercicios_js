@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhos da aula 14</title>
+</head>
+<body>
+    <!--Exercício 8-->
+    <h3>Exercício 8</h3>
+    <p>
+        <script>
+            var itemMenu = prompt("Por favor, escolha um dos itens do menu abaixo: \n1 - Refrigerante\n2 - Suco\n3 - Água");
+            function escolherMenu (itemMenu) {
+                if (itemMenu == "refrigerante" || itemMenu == "Refrigerante") {
+                    return "Você escolheu o item de número 1, o refrigerante."
+                } else if (itemMenu == "suco" || itemMenu == "Suco") {
+                    return "Você escolheu o item de número 2, o suco.";
+                } else if (itemMenu == "agua" || itemMenu == "Agua" || itemMenu == "água" || itemMenu == "Água") {
+                    return "Você escolheu o item de número 3, a água.";
+                } else {
+                    return "Não foi possível registrar seu pedido.";
+                }
+
+            }
+
+            document.write (escolherMenu(itemMenu));
+        </script>
+    </p>
+</body>
+</html>

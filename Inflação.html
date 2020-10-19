@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inflação</title>
+</head>
+<script>
+    var tomate1 = 3.30;
+    var tomate2 = 4.70;
+    var arroz1 = 2.99;
+    var arroz2 = 3.25;
+    var cenoura1 = 3.99;
+    var cenoura2 = 4.14;
+    var difTomate = tomate2-tomate1;
+    var difArroz = arroz2-arroz1;
+    var difCenoura = cenoura2-cenoura1;
+    var mediaInflacao = (difTomate+difArroz+difCenoura)/3;
+    var variacaoTomate = difTomate/6;
+    var variacaoArroz = difArroz/6;
+    var variacaoCenoura = difCenoura/6;
+    var item1 = "tomate";
+    var item2 = "arroz";
+    var item3 = "cenoura";
+
+    
+    function inflacao (produto,diferenca) {
+        document.write("O preço do(a) " + produto + " aumentou R$ " + diferenca + ".");
+        document.write("<br><br>");
+    }
+
+    function media (valor) {
+        document.write("A média das inflações foi de R$ " + valor + ".");
+        document.write("<br><br>");
+    }
+
+    function inflacaoDiaria (produto,variacao) {
+        document.write("A inflação diária da(a) " + produto + " foi de R$ " + variacao + ".");
+        document.write("<br><br>");
+    }
+
+    inflacao (item1,difTomate.toFixed(2));
+    inflacao (item2,difArroz.toFixed(2));
+    inflacao (item3,difCenoura.toFixed(2));
+    media(mediaInflacao.toFixed(2));
+    inflacaoDiaria(item1,variacaoTomate.toFixed(2));
+    inflacaoDiaria(item2,variacaoArroz.toFixed(2));
+    inflacaoDiaria(item3,variacaoCenoura.toFixed(2));
+
+
+</script>
+<body>
+    
+</body>
+</html>

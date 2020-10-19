@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var nomes1 = ["Augusto","João","Lucas"];
+        var nomes2 = ["Artur","João","Lucas"];
+       
+        function nomesLista (nomes1, nomes2) {
+            for (var i = 0; i<=nomes1.lenght; i++) {
+                console.log ("Rodou");
+                if (nomes1[i] == nomes2[i]) {
+                    return console.log ("Nome igual");
+                } else {
+                    return console.log ("Nome diferente");
+                }
+            }
+        }
+
+        nomesLista(nomes1, nomes2);
+        
+    </script>
+</body>
+</html>

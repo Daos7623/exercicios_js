@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+        <title>Página top</title>  
+    </head>    
+    <body>       
+        <h1>Página top</h1>      
+        <h3>Dados do cartão de crédito:</h3>     
+        <p>0101 1234 5678 9101</p>   
+
+        <input/>     
+        <button onclick="pesquisa()">Comentar</button> 
+
+        <script>          
+            // Não modificar!!!!          
+            function pesquisa()
+            {
+                var input = document.querySelector("input");   
+                var body = document.querySelector("body");   
+                body.innerHTML += `<br>`   
+                body.innerHTML += eval(`"` + input.value + `"`); 
+                body.innerHTML += `<br>`            
+            }   
+        </script>   
+    </body>
+    </html>

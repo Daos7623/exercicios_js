@@ -1,0 +1,40 @@
+<meta charset="UTF-8">
+<title>Jogo da adivinhação brabo</title>
+
+<script>
+	function pularLinha() {
+	
+		document.write("<br>");
+		document.write("<br>");
+	}
+	
+	function mostra(frase) {
+	
+		document.write(frase);
+		pularLinha();
+	}
+	
+	var numeroEscolhido = parseInt(prompt("Escolha um número de 1 a 9"));
+	var etapa1 = numeroEscolhido * 9;
+	var etapa2;
+	var etapa3;
+	
+	
+	
+	if (etapa1 == 9) {
+		etapa2 = 0 + 9;
+		etapa3 = etapa2 - numeroEscolhido;
+		mostra ("O número escolhido ");
+	}	
+	
+	if (etapa1 == 18) {
+		etapa2 = 1 + 8;
+		mostra (etapa2);
+	}
+	
+	if (etapa1 == 27) {
+		etapa2 = 2 + 7;
+		mostra (etapa2);
+	}
+		
+</script>

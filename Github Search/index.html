@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap" rel="stylesheet">  
+    <title>GitHub Search </title>
+    
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <div class="logo">
+                <img src="img/gitRepos.png">
+                <h1>GITHUB SEARCH</h1>
+            </div>
+        </a>
+    </header>
+
+    <div class="search">
+        <input  id="userForm"type="text" placeholder=" Insira o usuário">
+        <button id="userSearch">Procurar</button>
+    </div>
+    
+    <div class="results">
+        <div id="content">
+            
+        </div>
+
+        <div id="userRepos">
+
+        </div>
+    </div>
+</body>
+
+
+
+<script src="js/Models/user.js"></script>
+<script src="js/Models/Repository.js"></script>
+<script src="js/Controller/UserController.js"></script>
+<script src="js/Controller/ReposController.js"></script>
+<script src="js/Views/UserView.js"></script>
+<script src="js/Views/ReposView.js"></script>
+<script src="js/Controller/ControllerAux.js"></script>
+
+</html>

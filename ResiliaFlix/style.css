@@ -1,0 +1,82 @@
+body {
+    background-color: #e8dfc8;
+}
+
+.h1 {
+    color: #fff609;
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #2e2c27;
+    height: 50px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.divmenu{
+    margin-right: 200px;
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu {
+    background-color: #fff609;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.divposter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 50px;
+}
+
+.poster {
+    width: 200px;
+    height: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: solid;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    position: absolute;
+    background-color: #2e2c27;
+    height: 70px;
+    width: 100%;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+}
+
+.redes {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.copyright {
+    color: #fff609;
+    font-size: 14px;
+    margin-top: 5px;
+}
